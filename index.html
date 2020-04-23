@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atari Breakout</title>
+</head>
+<body>
+    <canvas id="breakoutCanvas" width="800" height="700"></canvas>
+    <script type="text/javascript" src="src/collision.js"></script>
+    <script type="text/javascript" src="src/ball.js"></script>
+    <script type="text/javascript" src="src/brick.js"></script>
+    <script type="text/javascript" src="src/paddle.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+
+    <style>
+        canvas {
+            margin: 0;
+            background: yellow;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+            
+        }
+        body {
+            background-color: gray;
+        }
+    </style>
+</body>
+</html>
